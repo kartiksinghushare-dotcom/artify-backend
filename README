@@ -1,0 +1,19 @@
+# Artify India — Backend API
+
+Backend API for Artify India, a marketplace for customisable handcrafted products.
+
+## Tech Stack
+- Node.js + Express.js
+- PostgreSQL + Prisma
+- JWT Authentication
+- Redis (coming soon)
+
+## Setup
+1. Clone the repo
+2. Run `npm install`
+3. Copy `.env.example` and fill in your values
+4. Run `npx prisma migrate dev`
+5. Run `npm run dev`
+
+## API Base URL
+`http://localhost:3000/api/v1`
