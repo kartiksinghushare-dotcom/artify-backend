@@ -62,6 +62,7 @@ app.use('/api/v1/categories', require('./routes/category.routes'));
 app.use('/api/v1/products', require('./routes/product.routes'));
 app.use('/api/v1/cart', require('./routes/cart.routes'));
 app.use('/api/v1/orders', require('./routes/order.routes'));
+app.use('/api/v1/vendor', require('./routes/vendor.routes'));
 
 // ── ERROR HANDLING ────────────────────────────────────────────────────
 app.use(notFound);
