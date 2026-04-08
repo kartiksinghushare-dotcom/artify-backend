@@ -60,6 +60,7 @@ app.use('/api/v1/auth', require('./routes/auth.routes'));
 app.use('/api/v1/user', require('./routes/user.routes'));
 app.use('/api/v1/categories', require('./routes/category.routes'));
 app.use('/api/v1/products', require('./routes/product.routes'));
+app.use('/api/v1/cart', require('./routes/cart.routes'));
 
 // ── ERROR HANDLING ────────────────────────────────────────────────────
 app.use(notFound);
